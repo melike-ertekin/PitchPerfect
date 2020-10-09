@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F77C727252E3C8900F2981C /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F77C726252E3C8900F2981C /* PlaySoundsViewController.swift */; };
 		7FC1291E252CDAF10043B162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1291D252CDAF10043B162 /* AppDelegate.swift */; };
 		7FC12920252CDAF10043B162 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC1291F252CDAF10043B162 /* SceneDelegate.swift */; };
-		7FC12922252CDAF10043B162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC12921252CDAF10043B162 /* ViewController.swift */; };
+		7FC12922252CDAF10043B162 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC12921252CDAF10043B162 /* RecordSoundsViewController.swift */; };
 		7FC12925252CDAF10043B162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC12923252CDAF10043B162 /* Main.storyboard */; };
 		7FC12927252CDAF20043B162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC12926252CDAF20043B162 /* Assets.xcassets */; };
 		7FC1292A252CDAF20043B162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC12928252CDAF20043B162 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F77C726252E3C8900F2981C /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 		7FC1291A252CDAF10043B162 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC1291D252CDAF10043B162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC1291F252CDAF10043B162 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7FC12921252CDAF10043B162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FC12921252CDAF10043B162 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		7FC12924252CDAF10043B162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FC12926252CDAF20043B162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FC12929252CDAF20043B162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 			children = (
 				7FC1291D252CDAF10043B162 /* AppDelegate.swift */,
 				7FC1291F252CDAF10043B162 /* SceneDelegate.swift */,
-				7FC12921252CDAF10043B162 /* ViewController.swift */,
+				7FC12921252CDAF10043B162 /* RecordSoundsViewController.swift */,
 				7FC12923252CDAF10043B162 /* Main.storyboard */,
 				7FC12926252CDAF20043B162 /* Assets.xcassets */,
 				7FC12928252CDAF20043B162 /* LaunchScreen.storyboard */,
 				7FC1292B252CDAF20043B162 /* Info.plist */,
+				7F77C726252E3C8900F2981C /* PlaySoundsViewController.swift */,
 			);
 			path = PitchPerfect;
 			sourceTree = "<group>";
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FC12922252CDAF10043B162 /* ViewController.swift in Sources */,
+				7FC12922252CDAF10043B162 /* RecordSoundsViewController.swift in Sources */,
 				7FC1291E252CDAF10043B162 /* AppDelegate.swift in Sources */,
+				7F77C727252E3C8900F2981C /* PlaySoundsViewController.swift in Sources */,
 				7FC12920252CDAF10043B162 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
